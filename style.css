@@ -1,0 +1,129 @@
+body{
+    
+    background-color:rgb(164, 177, 169);
+    background-image: url(universitylogo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(1px);
+    
+    background-size: 300px 300px 10px 10px;
+}
+
+/*body::before{
+    content: "MANONMANIAM SUNDARANAR UNIVERSITY";
+    position:absolute;
+     top: 0;
+    left: 0;
+    
+   
+    font-size: 10px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.08);   
+    white-space: pre;          
+    line-height: 80px;         
+    z-index: 0;
+    pointer-events: none;
+    background-repeat:repeat;  
+
+    background: repeating-linear-gradient(
+             
+        transparent 0,
+        transparent 80px
+    );
+}*/
+#marks{
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+    height: 500px;
+
+   
+}
+#marks th{
+    border: 1px solid black;
+    padding:8px;
+}
+#marks td{
+    border-left: 1px solid black;
+    border-right:1px solid black;
+    border-top: none;
+    border-bottom: none;
+    padding:8px;
+}
+#me{
+ 
+   
+    width: 100px;
+    height: auto;
+}
+#university{
+     
+    width: 150px;
+    height:auto;
+
+}
+td{
+    text-align: left;
+    
+}
+
+table{
+    border:2px solid black;
+    border-radius: 15px;
+    padding:30px;
+    border-collapse: collapse;
+    border-spacing: 0 20px;
+    width:80%;
+    
+}
+table.student{
+        border:2px solid black;
+    border-radius: 15px;
+    padding:30px;
+    border-spacing: 10px 30px;
+    border-collapse: collapse;
+    width:80%;
+}
+table.student td{
+    border:1px solid black;
+    paddings:8px;
+    height: 50px;
+}
+#credit{
+    width:60%;
+    border:2px solid black;
+    text-align: center;
+    font-weight: normal;
+    border-radius: 1px solid black;
+    border-collapse:collapse;
+}
+#credit th{
+    font-weight: normal;
+    border:1px solid black;
+
+    height:5px;
+}
+#credit td{
+    font-weight: bold;
+    text-align: center;
+     border:1px solid black;
+     height:5px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top:30px;
+    padding: 0 40px;
+}
+.left{
+   text-align: center; 
+}
+.right{
+    text-align: center; 
+}
+.right img{
+    display:block;
+    margin: 0 auto;
+}
