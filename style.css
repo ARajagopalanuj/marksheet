@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     backdrop-filter: blur(1px);
+    margin: 0;
     
     background-size: 300px 300px 10px 10px;
 }
